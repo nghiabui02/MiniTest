@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: cornsilk">
+<h1>Death is like the wind, always by my side. Hasagi !!!</h1>
+<script>
+  let linkanh = "https://genk.mediacdn.vn/k:thumb_w/640/2016/img20160604190955076/rat-nhieu-nguoi-thich-yasuo-nhung-bi-mat-cua-yasuo-thi-bao-nhieu-nguoi-biet.jpg"
+  for (i = 0; i < 21; i++) {
+    document.write("<img style='width: 550px' height='550px' src='" + linkanh + "'>");
+  }
+  let audio = new Audio('yasuo_220a9da64818174.mp3');
+  audio.play();
+  audio.pause();
+  audio.currentTime = 0;
+  audio.addEventListener('ended', function() {
+      console.log('Âm thanh đã phát xong!');
+  });
+
+
+
+</script>
+</body>
+</html>
