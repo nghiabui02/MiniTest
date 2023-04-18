@@ -6,14 +6,17 @@
 </head>
 <body>
 <script>
-  let a = +prompt("")
-  let b = +prompt("")
-  let tich = 0
-  for (i = a; i < b; i++ ) {
-    document.write(a * b)
-    for (i = a; i > b;i++){
-      if ()
-    }
+  let a = +prompt("Nhap a: ");
+  let b = +prompt("Nhap b: ");
+  if (a > b){
+      alert(a * b)
+  }
+  if (a < b) {
+      let tich = 1;
+      for (let i = a; i <= b; i++) {
+          tich *= i;
+      }
+      document.write('tich a den b la: ' + tich)
   }
 </script>
 
